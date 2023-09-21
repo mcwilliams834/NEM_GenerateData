@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <FileVersion>1.0.0.0</FileVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{39f36b7f-0172-4da3-9dac-f49a47d6cf34}</ProjectGuid>
+    <SubObjectsSortedByName>True</SubObjectsSortedByName>
+    <DownloadApplicationInfo>true</DownloadApplicationInfo>
+    <WriteProductVersion>true</WriteProductVersion>
+    <GenerateTpy>false</GenerateTpy>
+    <Name>GenerateData</Name>
+    <ProgramVersion>3.1.4024.0</ProgramVersion>
+    <Application>{e46e429e-513c-47cd-a3ee-c0d337be3f17}</Application>
+    <TypeSystem>{d9b39d38-8315-4184-9fdb-e71cb5cc7485}</TypeSystem>
+    <Implicit_Task_Info>{dc9d5b93-1153-4c83-9d3e-2c1816282da5}</Implicit_Task_Info>
+    <Implicit_KindOfTask>{cbe5af82-dc27-4f8c-a972-30ed5e3e7151}</Implicit_KindOfTask>
+    <Implicit_Jitter_Distribution>{c345f91e-fb17-4b78-abef-6d9b6fd245ba}</Implicit_Jitter_Distribution>
+    <LibraryReferences>{adcb6d2c-a3d7-47ae-8795-77f098bbd2df}</LibraryReferences>
+    <Licenses>
+      <License xmlns="">
+        <Key>{ce98e2a0-2cbe-44b0-ac79-8cdc0b8fb9e4}</Key>
+        <OemId>{ae804760-1517-4767-1e4c-0cb7b0b440af}</OemId>
+        <Comment />
+      </License>
+    </Licenses>
+    <Company>National Engineering Meeting</Company>
+    <Released>false</Released>
+    <Title>NEM_2023_GenerateData</Title>
+    <ProjectVersion>1.0</ProjectVersion>
+    <Author>MW</Author>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="FB_GenerateData.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <PlaceholderReference Include="Tc2_System">
+      <DefaultResolution>Tc2_System, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_System</Namespace>
+    </PlaceholderReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GenerateData.tmc">
+      <SubType>Content</SubType>
+    </None>
+  </ItemGroup>
+  <ProjectExtensions>
+    <PlcProjectOptions>
+      <XmlArchive>
+  <Data>
+    <o xml:space="preserve" t="OptionKey">
+      <v n="Name">"&lt;ProjectRoot&gt;"</v>
+      <d n="SubKeys" t="Hashtable" />
+      <d n="Values" t="Hashtable" />
+    </o>
+  </Data>
+  <TypeList>
+    <Type n="Hashtable">System.Collections.Hashtable</Type>
+    <Type n="OptionKey">{54dd0eac-a6d8-46f2-8c27-2f43c7e49861}</Type>
+    <Type n="String">System.String</Type>
+  </TypeList>
+</XmlArchive>
+    </PlcProjectOptions>
+  </ProjectExtensions>
+</Project>

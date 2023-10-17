@@ -17,8 +17,8 @@
     <Implicit_Jitter_Distribution>{c345f91e-fb17-4b78-abef-6d9b6fd245ba}</Implicit_Jitter_Distribution>
     <LibraryReferences>{adcb6d2c-a3d7-47ae-8795-77f098bbd2df}</LibraryReferences>
     <Licenses>
-      <License xmlns="">
-        <Key>{ce98e2a0-2cbe-44b0-ac79-8cdc0b8fb9e4}</Key>
+      <License>
+        <Key>{8939d938-3463-4491-9038-db60b7b92f3c}</Key>
         <OemId>{ae804760-1517-4767-1e4c-0cb7b0b440af}</OemId>
         <Comment />
       </License>
@@ -26,7 +26,7 @@
     <Company>National Engineering Meeting</Company>
     <Released>false</Released>
     <Title>NEM_2023_GenerateData</Title>
-    <ProjectVersion>1.0</ProjectVersion>
+    <ProjectVersion>1.1</ProjectVersion>
     <Author>MW</Author>
   </PropertyGroup>
   <ItemGroup>
@@ -48,19 +48,19 @@
   <ProjectExtensions>
     <PlcProjectOptions>
       <XmlArchive>
-  <Data>
-    <o xml:space="preserve" t="OptionKey">
+        <Data>
+          <o xml:space="preserve" t="OptionKey">
       <v n="Name">"&lt;ProjectRoot&gt;"</v>
       <d n="SubKeys" t="Hashtable" />
       <d n="Values" t="Hashtable" />
     </o>
-  </Data>
-  <TypeList>
-    <Type n="Hashtable">System.Collections.Hashtable</Type>
-    <Type n="OptionKey">{54dd0eac-a6d8-46f2-8c27-2f43c7e49861}</Type>
-    <Type n="String">System.String</Type>
-  </TypeList>
-</XmlArchive>
+        </Data>
+        <TypeList>
+          <Type n="Hashtable">System.Collections.Hashtable</Type>
+          <Type n="OptionKey">{54dd0eac-a6d8-46f2-8c27-2f43c7e49861}</Type>
+          <Type n="String">System.String</Type>
+        </TypeList>
+      </XmlArchive>
     </PlcProjectOptions>
   </ProjectExtensions>
 </Project>

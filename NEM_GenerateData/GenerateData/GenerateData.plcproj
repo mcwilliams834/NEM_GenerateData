@@ -17,11 +17,6 @@
     <Implicit_Jitter_Distribution>{c345f91e-fb17-4b78-abef-6d9b6fd245ba}</Implicit_Jitter_Distribution>
     <LibraryReferences>{adcb6d2c-a3d7-47ae-8795-77f098bbd2df}</LibraryReferences>
     <Licenses>
-      <License>
-        <Key>{c61b157c-4233-4919-9446-2d2b29eb9918}</Key>
-        <OemId>{ae804760-1517-4767-1e4c-0cb7b0b440af}</OemId>
-        <Comment />
-      </License>
     </Licenses>
     <Company>National Engineering Meeting</Company>
     <Released>false</Released>
@@ -31,7 +26,8 @@
     <AllowChecksForLibrary>false</AllowChecksForLibrary>
     <POUsForPropertyAccessIncluded>false</POUsForPropertyAccessIncluded>
     <GlobalVersionStructureIncluded>false</GlobalVersionStructureIncluded>
-    <DocFormat>TcDocGen</DocFormat>
+    <DocFormat>
+    </DocFormat>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="FB_GenerateData.TcPOU">
